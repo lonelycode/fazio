@@ -1,0 +1,45 @@
+{
+  "_id": "5b70e7aceacd79000186ddeb",
+  "id": "5b70e7aceacd79000186ddeb",
+  "org_id": "5b70c3aa961d5700013356de",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "access_rights": {
+    "f0fd598bb8a8475b6425654e4e4d255f": {
+      "api_name": "",
+      "api_id": "",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [
+        {
+          "url": "customer(.*)",
+          "methods": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE",
+            "OPTIONS"
+          ]
+        }
+      ]
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "Internal API Users",
+  "is_inactive": false,
+  "date_created": "2018-08-13T02:06:36.678Z",
+  "tags": [
+    "internal-users"
+  ],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1534125996"
+}
