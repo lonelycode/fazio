@@ -8,8 +8,8 @@
   "quota_renewal_rate": 2592000,
   "access_rights": {
     "8b2f8900a817421d7b2f32a4d8c8d678": {
-      "api_name": "",
-      "api_id": "",
+      "api_name": "httpbin.org #external",
+      "api_id": "8b2f8900a817421d7b2f32a4d8c8d678",
       "versions": [
         "1.0"
       ],

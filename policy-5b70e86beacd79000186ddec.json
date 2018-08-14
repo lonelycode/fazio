@@ -8,8 +8,8 @@
   "quota_renewal_rate": 2592000,
   "access_rights": {
     "f0fd598bb8a8475b6425654e4e4d255f": {
-      "api_name": "",
-      "api_id": "",
+      "api_name": "ECommerce API",
+      "api_id": "f0fd598bb8a8475b6425654e4e4d255f",
       "versions": [
         "Default"
       ],
