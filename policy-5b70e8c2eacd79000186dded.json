@@ -1,0 +1,42 @@
+{
+  "_id": "5b70e8c2eacd79000186dded",
+  "id": "5b70e8c2eacd79000186dded",
+  "org_id": "5b70c3aa961d5700013356de",
+  "rate": 1,
+  "per": 60,
+  "quota_max": 100,
+  "quota_renewal_rate": 2592000,
+  "access_rights": {
+    "f0fd598bb8a8475b6425654e4e4d255f": {
+      "api_name": "ECommerce API",
+      "api_id": "f0fd598bb8a8475b6425654e4e4d255f",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [
+        {
+          "url": "submitOrder(.*)",
+          "methods": [
+            "POST",
+            "OPTIONS"
+          ]
+        }
+      ]
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "name": "Open Orders",
+  "is_inactive": false,
+  "date_created": "2018-08-13T02:11:14.02Z",
+  "tags": [
+    "open-orders"
+  ],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "acl": false
+  },
+  "last_updated": "1534126273"
+}
